@@ -6,6 +6,7 @@ class StorePicker extends React.Component {
         // return React.createElement('p', { className: 'hey'})
         return (
             <React.Fragment>
+                {/* React Fragment allows you to write sibling elements without wrapping them in a div */}
                 {/* This is how you write a comment it also has to be inside an element */}
                 <form className="store-selector">
                     <h2>Please Enter A Store</h2>
